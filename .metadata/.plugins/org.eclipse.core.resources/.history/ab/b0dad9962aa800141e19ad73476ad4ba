@@ -27,15 +27,11 @@ Death by Fork \\ The Lakeside School}
 \subsection{Which soccer player had the most sleep per night throughout the
 season?}
 
-The player with the greatest total number of hours is player 15, with a total of
-828 hours, meaning that she also has the greatest average hours of night per
-season. Her average hours of sleep per night is 8.
+The 
 
 
 \subsection{Is there a significant difference in the average amount of sleep
 for athletes weekends vs. weekdays?}
-
-A Welch's t-test seems applicable here.
 
 
 

@@ -1,32 +1,34 @@
 import csv
-import re
+import time
+import datetime
 
 soccerDict = {}
+recordDict = {}
 minDate = 0
 maxDate = 0
 
-
 with open('C:\\Users\\neil.xu\\Documents\\GitHub\\PACC2015\\welcome\\player_data_soccer.csv', 'rb') as soccerFile:
 		reader = csv.reader(soccerFile, delimiter = ',')
-		pattern = r'[-+]?\d+\\[-+]?\d+\\'
 		for row in reader:
 			try:
 				if row[0] in soccerDict:
 					soccerDict[row[0]] = soccerDict[row[0]] + int(row[8])
+					recordDict[row[0]] += 1
 				else:
 					soccerDict[row[0]] = int(row[8])
+					recordDict[row[0]] = 1
 			except:
 				next
-			if re.match(pattern, row[2]):
-				print row[2]
-				
+			
 
 
 
 maxSleep = 0
 maxID = 0
+totalHours = 0
 for key in soccerDict.keys():
-	if soccerDict[key] > maxSleep:
-		maxSleep = soccerDict[key]
+	if soccerDict[key] / recordDict[key] > maxSleep:
+		maxSleep = soccerDict[key] / recordDict[key]
+		totalHours = soccerDict[key]
 		maxID = key
-print maxSleep, maxID
+print "max sleep: %d\nID : %s\nTotal sleep: %d" % (maxSleep, maxID, totalHours)

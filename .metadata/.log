@@ -86,3 +86,77 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.core.resources 4 2 2015-01-29 18:49:22.454
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.NullPointerException
+	at net.sourceforge.texlipse.TexlipsePlugin.getCurrentWorkbenchPage(TexlipsePlugin.java:259)
+	at net.sourceforge.texlipse.TexlipsePlugin.getCurrentProject(TexlipsePlugin.java:221)
+	at net.sourceforge.texlipse.viewer.ViewerManager.initialize(ViewerManager.java:277)
+	at net.sourceforge.texlipse.viewer.ViewerManager.closeOutputDocument(ViewerManager.java:184)
+	at net.sourceforge.texlipse.builder.TexBuilder.buildResource(TexBuilder.java:241)
+	at net.sourceforge.texlipse.builder.AbstractBuilder.build(AbstractBuilder.java:121)
+	at net.sourceforge.texlipse.builder.TexlipseBuilder.buildFile(TexlipseBuilder.java:370)
+	at net.sourceforge.texlipse.builder.TexlipseBuilder.build(TexlipseBuilder.java:102)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:733)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:302)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:358)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.core.resources 4 75 2015-01-29 18:49:22.824
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 net.sourceforge.texlipse 4 75 2015-01-29 18:49:22.824
+!MESSAGE Errors running builder 'Latex Builder' on project 'PACCWriteUp'.
+!STACK 0
+java.lang.NullPointerException
+	at net.sourceforge.texlipse.TexlipsePlugin.getCurrentWorkbenchPage(TexlipsePlugin.java:259)
+	at net.sourceforge.texlipse.TexlipsePlugin.getCurrentProject(TexlipsePlugin.java:221)
+	at net.sourceforge.texlipse.viewer.ViewerManager.initialize(ViewerManager.java:277)
+	at net.sourceforge.texlipse.viewer.ViewerManager.closeOutputDocument(ViewerManager.java:184)
+	at net.sourceforge.texlipse.builder.TexBuilder.buildResource(TexBuilder.java:241)
+	at net.sourceforge.texlipse.builder.AbstractBuilder.build(AbstractBuilder.java:121)
+	at net.sourceforge.texlipse.builder.TexlipseBuilder.buildFile(TexlipseBuilder.java:370)
+	at net.sourceforge.texlipse.builder.TexlipseBuilder.build(TexlipseBuilder.java:102)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:733)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:302)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:358)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SESSION 2015-01-30 11:09:35.182 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_25
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.standard.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.standard.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-01-30 11:10:00.286
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-01-30 11:10:00.379
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\neil.xu'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
