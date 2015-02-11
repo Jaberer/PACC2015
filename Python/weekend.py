@@ -28,11 +28,11 @@ with open('C:\\Users\\neil.xu\\Documents\\GitHub\\PACC2015\\welcome\\player_data
 		try:
 			day = datetime.datetime.strptime(row[2], "%m/%d/%Y").weekday()			
 			if int(day) == 5 or int(day) == 6:
-				addToDict(weekendDist, int(row[8]))
-				weekendList.append(int(row[8]))
+				addToDict(weekendDist, float(row[8]))
+				weekendList.append(float(row[8]))
 			else:
-				addToDict(weekDist, int(row[8]))
-				weekList.append(int(row[8]))
+				addToDict(weekDist, float(row[8]))
+				weekList.append(float(row[8]))
 		except:
 			next
 

@@ -12,10 +12,10 @@ with open('C:\\Users\\neil.xu\\Documents\\GitHub\\PACC2015\\welcome\\player_data
 		for row in reader:
 			try:
 				if row[0] in soccerDict:
-					soccerDict[row[0]] = soccerDict[row[0]] + int(row[8])
+					soccerDict[row[0]] = soccerDict[row[0]] + float(row[8])
 					recordDict[row[0]] += 1
 				else:
-					soccerDict[row[0]] = int(row[8])
+					soccerDict[row[0]] = float(row[8])
 					recordDict[row[0]] = 1
 			except:
 				next
@@ -31,4 +31,4 @@ for key in soccerDict.keys():
 		maxSleep = soccerDict[key] / recordDict[key]
 		totalHours = soccerDict[key]
 		maxID = key
-print "max sleep: %d\nID : %s\nTotal sleep: %d" % (maxSleep, maxID, totalHours)
+print "max sleep: %f\nID : %s\nTotal sleep: %f" % (maxSleep, maxID, totalHours)

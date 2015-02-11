@@ -17,7 +17,7 @@ with open('C:\\Users\\neil.xu\\Documents\\GitHub\\PACC2015\\welcome\\player_data
 	reader = csv.reader(soccerFile, delimiter=',')
 	for row in reader:
 		try:
-			sleepList.append(int(row[8]))
+			sleepList.append(float(row[8]))
 		except:
 			next
 	maxVal = max(sleepList)
@@ -29,7 +29,7 @@ with open('C:\\Users\\neil.xu\\Documents\\GitHub\\PACC2015\\welcome\\player_data
 			minId.append(row[0])
 
 plt.figure()
-n, bins, patches = plt.hist(sleepList, bins=range(min(sleepList), max(sleepList) + 1, 1), normed=0, facecolor='green', alpha=1)
+n, bins, patches = plt.hist(sleepList, bins=range(int(min(sleepList)), int(max(sleepList)) + 1, 1), normed=0, facecolor='green', alpha=1)
 plt.xlabel('Hours of sleep')
 plt.ylabel('Number of occurrences')
 plt.rcParams["axes.titlesize"] = 10
