@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PlaceSearchResponse>
+ <status>OK</status>
+ <result>
+  <name>Spokane</name>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Spokane, WA, USA</formatted_address>
+  <geometry>
+   <location>
+    <lat>47.6587802</lat>
+    <lng>-117.4260466</lng>
+   </location>
+   <viewport>
+    <southwest>
+     <lat>47.5871919</lat>
+     <lng>-117.5204560</lng>
+    </southwest>
+    <northeast>
+     <lat>47.7584890</lat>
+     <lng>-117.3038439</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <icon>http://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png</icon>
+  <reference>CnRtAAAApKscn2B1JmRSKy7ArtOM-3gHwcy2Lgd5jzdeEfQrk888zYOhR4zzY0epjOXk4-__sfoL_jNrirFv__JCZnAG4ANT_cO2uf474jEp0iwQFwebjovbQuOpwMlWMnn7j1ARrHq8bT_YfKOobBTg-A9uFhIQVktybV2RNTgTExDBSDQkqhoUw7Jgwnzb7SrGnSbUFFMbIfCoVxA</reference>
+  <id>648bc7782230a4fe2c4ee6fb68cc84b2330b74f1</id>
+  <place_id>ChIJ5ee7MFwYnlQRsdmEC9bJ_N0</place_id>
+ </result>
+</PlaceSearchResponse>

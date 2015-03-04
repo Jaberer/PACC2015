@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PlaceSearchResponse>
+ <status>OK</status>
+ <result>
+  <name>Tucson</name>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Tucson, AZ, USA</formatted_address>
+  <geometry>
+   <location>
+    <lat>32.2217429</lat>
+    <lng>-110.9264790</lng>
+   </location>
+   <viewport>
+    <southwest>
+     <lat>31.9916539</lat>
+     <lng>-111.0594060</lng>
+    </southwest>
+    <northeast>
+     <lat>32.3201661</lat>
+     <lng>-110.7082040</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <icon>http://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png</icon>
+  <reference>CnRsAAAAi3eS803VQpxUKcm03EStcgOxcHfxGB2QmSSJS5uqEIS5t7NsGi6YxmiefU25Y2YHdFPgWNjLrgbbXI0CCPjHB8dhdSYgc4LdavnozgKybab1cmlH4f1ZXTj1F343OiVC08-ROHMWbDQcVKnTJG-GHhIQL_TkL8kCuHs7XCXPTVd9SxoUKIFL8JW8r30VlsBHOkcWKZw6IDc</reference>
+  <id>18a0d3df0043eb1e84edb9c94856352a4be45104</id>
+  <place_id>ChIJK-0sC0Fl1oYRFccWTTgtw3M</place_id>
+ </result>
+</PlaceSearchResponse>

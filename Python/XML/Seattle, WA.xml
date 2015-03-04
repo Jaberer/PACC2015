@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PlaceSearchResponse>
+ <status>OK</status>
+ <result>
+  <name>Seattle</name>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Seattle, WA, USA</formatted_address>
+  <geometry>
+   <location>
+    <lat>47.6062095</lat>
+    <lng>-122.3320708</lng>
+   </location>
+   <viewport>
+    <southwest>
+     <lat>47.4955511</lat>
+     <lng>-122.4359085</lng>
+    </southwest>
+    <northeast>
+     <lat>47.7341450</lat>
+     <lng>-122.2359032</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <icon>http://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png</icon>
+  <reference>CnRtAAAA0IiJfTfOGMNv4pD0xYWqTqM-dNrE56tlQpgG4MNVL5LtJduwiDF0DHCbapu33ETWCSdjukxPxoSOxhOQfyu9S8IeG2UwM3L5FBrJAcwQ9ysYpFnDcl6FzKTWD6rlbAHGKd1hep3oYvwHIKbA1kKBaxIQzl3o_e7z_vTfWTduRhFBjxoUiTeWQehhlACdXBE_IMrHiSa53Pk</reference>
+  <id>67cf2359c5a32054c37a05f8173fa95710f0af09</id>
+  <place_id>ChIJVTPokywQkFQRmtVEaUZlJRA</place_id>
+ </result>
+</PlaceSearchResponse>

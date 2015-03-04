@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PlaceSearchResponse>
+ <status>OK</status>
+ <result>
+  <name>Pullman</name>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Pullman, WA, USA</formatted_address>
+  <geometry>
+   <location>
+    <lat>46.7297771</lat>
+    <lng>-117.1817377</lng>
+   </location>
+   <viewport>
+    <southwest>
+     <lat>46.7076170</lat>
+     <lng>-117.2116579</lng>
+    </southwest>
+    <northeast>
+     <lat>46.7533410</lat>
+     <lng>-117.0928590</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <icon>http://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png</icon>
+  <reference>CnRtAAAASAyk_B_G6mhgaMRBog8Xo6vnifB3kH8pMfgOllWm464nod-iyYTl0Xb5oUQTR59_JpqJo06kek3ucJh4Z7ZNOAP19eZqJrCdlNF6IhgjVC-4pYvKWMVitbLRMSNcJfx92RpPYwTTxKSW0f9rjLasChIQNbiGWNxmjYuPnDvnK141MRoUEsWUkeM1yoamJ2JPNRK7tzCiHw0</reference>
+  <id>04fd3f1c8ade67b2328bac9f41dcf2727b446c08</id>
+  <place_id>ChIJlU3hshSBn1QR8AAEJBabpIY</place_id>
+ </result>
+</PlaceSearchResponse>

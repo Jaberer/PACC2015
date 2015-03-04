@@ -1,5 +1,7 @@
 import datetime
 import csv
+from math import radians, cos, sin, asin, sqrt
+
 
 
 __name__ = 'PACC'
@@ -31,8 +33,14 @@ def getGameDates(string):
 				next
 		return tmplist
 
-def getPlayerDataArray(string):
-	filename = folderHeader + player
+def getPlayerDataArray(string, type):
+	filename = folderHeader
+	if type == 0:
+		filename = filename + player
+	elif type == 1:
+		filename = filename + team
+	else:
+		return []
 	if string == 0:
 		filename = filename + soc
 	elif string == 1:
@@ -48,3 +56,22 @@ def getPlayerDataArray(string):
 	tmplist.remove(tmplist[0])
 	return tmplist
 
+#http://stackoverflow.com/questions/4913349/haversine-formula-in-python-bearing-and-distance-between-two-gps-points
+def haversine(lon1, lat1, lon2, lat2):
+    """
+    Calculate the great circle distance between two points 
+    on the earth (specified in decimal degrees)
+    """
+    # convert decimal degrees to radians 
+    lon1, lat1, lon2, lat2 = map(radians, [lon1, lat1, lon2, lat2])
+
+    # haversine formula 
+    dlon = lon2 - lon1 
+    dlat = lat2 - lat1 
+    a = sin(dlat/2)**2 + cos(lat1) * cos(lat2) * sin(dlon/2)**2
+    c = 2 * asin(sqrt(a)) 
+    r = 6371 # Radius of earth in kilometers. Use 3956 for miles
+    return c * r
+
+def listMean(list):
+	return sum(list) / len(list)

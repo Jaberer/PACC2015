@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PlaceSearchResponse>
+ <status>OK</status>
+ <result>
+  <name>Eugene</name>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Eugene, OR, USA</formatted_address>
+  <geometry>
+   <location>
+    <lat>44.0520691</lat>
+    <lng>-123.0867536</lng>
+   </location>
+   <viewport>
+    <southwest>
+     <lat>43.9887109</lat>
+     <lng>-123.2084020</lng>
+    </southwest>
+    <northeast>
+     <lat>44.1326199</lat>
+     <lng>-123.0366989</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <icon>http://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png</icon>
+  <reference>CnRsAAAAWy5Gyidj5xHiCSTn7WJ9LsQOe-ymrLuQm89GfCvO-KsqP-pEVckpDNYL5gwZPnD89hHwfq_rn2nlWvC6t3bePwePlT5DzZwKk2pwDnf3FEnT5UbNnDacmcnN83o8qtYxGkcDR-1sNqRhfkRhzUAzExIQ_InMFIq3iEE1YKJ8RzEPwRoUHvhOmQWqjikGxuKrg8LHgsZKiE8</reference>
+  <id>047fdf77c574ab1476b857edf19f51a6b02155da</id>
+  <place_id>ChIJGRlQrLAZwVQRTYlDSolh7Fc</place_id>
+ </result>
+</PlaceSearchResponse>

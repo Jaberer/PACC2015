@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PlaceSearchResponse>
+ <status>OK</status>
+ <result>
+  <name>Corvallis</name>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Corvallis, OR, USA</formatted_address>
+  <geometry>
+   <location>
+    <lat>44.5645659</lat>
+    <lng>-123.2620435</lng>
+   </location>
+   <viewport>
+    <southwest>
+     <lat>44.5196909</lat>
+     <lng>-123.3362331</lng>
+    </southwest>
+    <northeast>
+     <lat>44.6062540</lat>
+     <lng>-123.2308399</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <icon>http://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png</icon>
+  <reference>CnRvAAAAicxvGoYJKRvWW3zkYGNgL_hYK8uIPLg34Oyim60_YR1psf3W5c6pZr0x37yZV7h70cMul6l2UZz1eBHKvpzQRDwx8VVLjXERipUS9tNfBL9MxFbcz3295JalL2uVimUBU4z28zFzxWNJr9OPQT1KBBIQqlV25HsxAN8pXkp_2mtYJRoUncT5SzrjlWFYgJxxgeOp22TA5VQ</reference>
+  <id>b239ba1effb66f2bef87de5514c9f34d77beedd7</id>
+  <place_id>ChIJfdcUqp1AwFQRvsC9Io-ADdc</place_id>
+ </result>
+</PlaceSearchResponse>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PlaceSearchResponse>
+ <status>OK</status>
+ <result>
+  <name>Portland</name>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Portland, OR, USA</formatted_address>
+  <geometry>
+   <location>
+    <lat>45.5230622</lat>
+    <lng>-122.6764816</lng>
+   </location>
+   <viewport>
+    <southwest>
+     <lat>45.4323930</lat>
+     <lng>-122.8369952</lng>
+    </southwest>
+    <northeast>
+     <lat>45.6524799</lat>
+     <lng>-122.4718489</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <icon>http://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png</icon>
+  <reference>CnRuAAAAp1Ij1hxRow6PkOMl7s-kBlbuIkDBVLrZNErv6tT9NIMlD4bnC-PpCOH-ssr3v7qNQq8rQedoT-22Moz6_4Gyu0o1g450zitY32Q2f9NP-tVZ7zOzWEHD4P0KycBr4VScPWI3ly3nxdTVYIY4ZdR_GhIQmiX0YCxvwsYyrsduMkntzxoUGYBLuSjGuGZ8c4_D2yJy4vVh6ok</reference>
+  <id>a4bab2d2863eff36d4e6bd34db32ba7a3b000b22</id>
+  <place_id>ChIJJ3SpfQsLlVQRkYXR9ua5Nhw</place_id>
+ </result>
+</PlaceSearchResponse>

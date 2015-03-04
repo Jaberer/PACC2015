@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PlaceSearchResponse>
+ <status>OK</status>
+ <result>
+  <name>Tempe</name>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Tempe, AZ, USA</formatted_address>
+  <geometry>
+   <location>
+    <lat>33.4255104</lat>
+    <lng>-111.9400054</lng>
+   </location>
+   <viewport>
+    <southwest>
+     <lat>33.3198608</lat>
+     <lng>-111.9789760</lng>
+    </southwest>
+    <northeast>
+     <lat>33.4639840</lat>
+     <lng>-111.8772261</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <icon>http://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png</icon>
+  <reference>CnRrAAAABlDyhX7XsWVcuEB8UZz41Fduy2Lj7ZiSwT_T-OF0DAnBVI_kXVleVGiyoew9LmVYrBK6O79kqcd1C0fz0wZm5oqz08wZs0hp-wLxhPkBv6YA7agKoFtsRA8-sxW8akxg1yCMMhGspn2572z_QbA64RIQb408eBFhBY9CENaipU4WDxoU7XWZND8oCnQJluTQldH-mh63NB8</reference>
+  <id>897d6cfcbecba44d38fdcb84c688a19379cd3e06</id>
+  <place_id>ChIJ44CqppgIK4cRH7QsOa1K3aI</place_id>
+ </result>
+</PlaceSearchResponse>

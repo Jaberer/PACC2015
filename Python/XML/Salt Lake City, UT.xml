@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PlaceSearchResponse>
+ <status>OK</status>
+ <result>
+  <name>Salt Lake City</name>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Salt Lake City, UT, USA</formatted_address>
+  <geometry>
+   <location>
+    <lat>40.7607793</lat>
+    <lng>-111.8910474</lng>
+   </location>
+   <viewport>
+    <southwest>
+     <lat>40.7002460</lat>
+     <lng>-112.1015120</lng>
+    </southwest>
+    <northeast>
+     <lat>40.8529699</lat>
+     <lng>-111.7394581</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <icon>http://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png</icon>
+  <reference>CoQBdAAAAIxGJkA-xrpJZTDp2YUDtc5Ra-uldrrPCtg_ZlH0oToBpFBUo2PuB2v6fqVH67oF1cEMg8y4Y58ENq8ZKtlseZzIB_MJuNByGP6pxUd4738urLpb5mPDbsJrw669kxdKJkfvNOyu_rjOnKyFD6c9wUJ0d5l5v1u-ptsfY4IyETESEhDFX9I5nfLScnaU12rTsQ7HGhSP1Vaw0_JR5wMEvbr5MGpp0cye6w</reference>
+  <id>23548ecd6961a94bd395e233cc82ca1275aa3dfe</id>
+  <place_id>ChIJ7THRiJQ9UocRyjFNSKC3U1s</place_id>
+ </result>
+</PlaceSearchResponse>

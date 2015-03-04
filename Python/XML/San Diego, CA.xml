@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PlaceSearchResponse>
+ <status>OK</status>
+ <result>
+  <name>San Diego</name>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>San Diego, CA, USA</formatted_address>
+  <geometry>
+   <location>
+    <lat>32.7157380</lat>
+    <lng>-117.1610838</lng>
+   </location>
+   <viewport>
+    <southwest>
+     <lat>32.5348560</lat>
+     <lng>-117.2821665</lng>
+    </southwest>
+    <northeast>
+     <lat>33.1142490</lat>
+     <lng>-116.9081600</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <icon>http://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png</icon>
+  <reference>CnRvAAAAWphlz7w2WFDyvPHt8krfDBFDYMtmmKvUwpsm0PqlnB4O56XBiequ8phIBO_GdyTFmB-1eODwg0JCXG13uI50l0cEKOLahfh53qNQw7mMwhuC5WQODa9oUE38XFC0QKYHZ72e8RTAVy-jlVRgOoKTthIQ1KczMIGy68xpTBncIzh9pxoUFqLgfkcSdZu7RS-lojvk7U7uZt4</reference>
+  <id>825cb99d00346a211b52ed2407b26e2ae78e72bf</id>
+  <place_id>ChIJSx6SrQ9T2YARed8V_f0hOg0</place_id>
+ </result>
+</PlaceSearchResponse>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PlaceSearchResponse>
+ <status>OK</status>
+ <result>
+  <name>Boulder</name>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Boulder, CO, USA</formatted_address>
+  <geometry>
+   <location>
+    <lat>40.0149856</lat>
+    <lng>-105.2705456</lng>
+   </location>
+   <viewport>
+    <southwest>
+     <lat>39.9640689</lat>
+     <lng>-105.3017579</lng>
+    </southwest>
+    <northeast>
+     <lat>40.0945509</lat>
+     <lng>-105.1781970</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <icon>http://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png</icon>
+  <reference>CnRtAAAAIQOZyrwcvFC2ra2QMuCrJN6Ci6eQ5S262N5qVw6isj8IB9DekFQZzQBO_bY3ceig0yg3eYIQcWbxW2ySoJb7cQZWil3TWSb4fYW8n2dz6ZM-CjzNmni9-Si6xM7GFwtMVlDrfQxoxptiVbKgJZ48EhIQD2lAxpqABO1gRCKjx_VMjBoUvW5DaDpgjEm7rnBObMPvYtB8nVc</reference>
+  <id>db473d828065fb11933d21567d9ba8f5b03494fd</id>
+  <place_id>ChIJ06-NJ06Na4cRWIAboHw7Ocg</place_id>
+ </result>
+</PlaceSearchResponse>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PlaceSearchResponse>
+ <status>OK</status>
+ <result>
+  <name>Fort Myers</name>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Fort Myers, FL, USA</formatted_address>
+  <geometry>
+   <location>
+    <lat>26.6406280</lat>
+    <lng>-81.8723084</lng>
+   </location>
+   <viewport>
+    <southwest>
+     <lat>26.5478199</lat>
+     <lng>-81.8959515</lng>
+    </southwest>
+    <northeast>
+     <lat>26.6801512</lat>
+     <lng>-81.7508179</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <icon>http://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png</icon>
+  <reference>CnRwAAAAcxCKDKcp32_EyzzX6UM255Fmi3oGZV3PVQmtAfyYUY4NcVDbSaa8lHsUAzN1n77ADxCR8lxWAeNBsTeZi4yACGkMgoWHCaWfuhyKa0q7NPAZY26RPvr1lJcGFK9kbqZA-yMZSa7HP0mQphDcm2ybjBIQ1tO1Gj6wbDY3_6zKhlNIVBoUB1jNAq7QwCVzU_xwuJS1t2vaYx0</reference>
+  <id>fca8d3a87cf1083ef3e49ad5cea5f3fd41f1dd37</id>
+  <place_id>ChIJKVSoiQFC24gRiiW6ClMIKcY</place_id>
+ </result>
+</PlaceSearchResponse>

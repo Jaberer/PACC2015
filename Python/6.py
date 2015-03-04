@@ -8,8 +8,8 @@ import PACC
 sTList = PACC.getGameDates(0)
 vTList = PACC.getGameDates(1)
 
-sPArray = PACC.getPlayerDataArray(0)
-vPArray = PACC.getPlayerDataArray(1)
+sPArray = PACC.getPlayerDataArray(0, 0)
+vPArray = PACC.getPlayerDataArray(1, 0)
 
 gameDist = []
 normDist = []

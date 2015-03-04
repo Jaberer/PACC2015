@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PlaceSearchResponse>
+ <status>OK</status>
+ <result>
+  <name>Berkeley</name>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Berkeley, CA, USA</formatted_address>
+  <geometry>
+   <location>
+    <lat>37.8715926</lat>
+    <lng>-122.2727470</lng>
+   </location>
+   <viewport>
+    <southwest>
+     <lat>37.8462260</lat>
+     <lng>-122.3270650</lng>
+    </southwest>
+    <northeast>
+     <lat>37.9056681</lat>
+     <lng>-122.2341790</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <icon>http://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png</icon>
+  <reference>CnRuAAAASeI-pzIbDdbMz3HagQIxj78gVaSGB6vHuJW4NQP5EHlrD-2umK_v64asLEsnsHy7M4dJci2KaZxaLZ3kQWtFBWFQW3y916q-ACzuU_UJBdlRUa0GyB2h2qxglvyIypO0IzeHtPQaNHbwY9cGjvOYKxIQo-91_99DRuWF9yfDf9_6nBoUUbvEt8P9WOICY_QLqwG-i_HgLV4</reference>
+  <id>00741fe572fc4084428ab206e1a55830f6a1bf0a</id>
+  <place_id>ChIJ00mFOjZ5hYARk-l1ppUV6pQ</place_id>
+ </result>
+</PlaceSearchResponse>

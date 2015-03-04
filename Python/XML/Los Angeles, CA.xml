@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PlaceSearchResponse>
+ <status>OK</status>
+ <result>
+  <name>Los Angeles</name>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Los Angeles, CA, USA</formatted_address>
+  <geometry>
+   <location>
+    <lat>34.0522342</lat>
+    <lng>-118.2436849</lng>
+   </location>
+   <viewport>
+    <southwest>
+     <lat>33.7036917</lat>
+     <lng>-118.6681759</lng>
+    </southwest>
+    <northeast>
+     <lat>34.3373061</lat>
+     <lng>-118.1552891</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <icon>http://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png</icon>
+  <reference>CoQBcQAAAMkx1PVHTwav0vNCrKG6DS68lJHBAxqwqcwaeigb6sPGwSdShZlsG6eRxNY4WlsKMFwF3dOrTjbHQwIdyF5r2MzWMH1tSHPTiAMQleogmWKDMLTZCe5kqo-BDBFA2bvZ17HEEiER5WIEYScB5lVMVSQJkcmOvueRkOoQlbmlOCjREhA_dXnSdAtXvXXEN66d4tOBGhRwmh8jQ_ad-gXDSEZL6OlCCQ5LAg</reference>
+  <id>7f7b7d8118ae8db8ed3f541159ac928c484d12ad</id>
+  <place_id>ChIJE9on3F3HwoAR9AhGJW_fL-I</place_id>
+ </result>
+</PlaceSearchResponse>

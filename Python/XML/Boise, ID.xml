@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PlaceSearchResponse>
+ <status>OK</status>
+ <result>
+  <name>Boise</name>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Boise, ID, USA</formatted_address>
+  <geometry>
+   <location>
+    <lat>43.6187102</lat>
+    <lng>-116.2146068</lng>
+   </location>
+   <viewport>
+    <southwest>
+     <lat>43.5117170</lat>
+     <lng>-116.3658869</lng>
+    </southwest>
+    <northeast>
+     <lat>43.6898951</lat>
+     <lng>-116.1019090</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <icon>http://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png</icon>
+  <reference>CnRrAAAATNlhukTbL_3VSza-qIoKERxAsU4aTzJdlYkKwb3XxFZu15NI4Fs32IybPXnMhk5tZTCybWooP3K7WZfiTvyeXyA_qqCrhprfX1z1h34E_p725nG_b5j969vTiqUrX0JiTTWZsks0Ya4qBaI_dOYtCRIQ92nckXUvaL4S2ZVfL0pQshoUy_1b8QD_AMFr-Ug9Zgw2R7z7r84</reference>
+  <id>d6db31e427de818ee44395c996a8c87704bbc6c9</id>
+  <place_id>ChIJnbRH6XLxrlQRm51nNpuYW5o</place_id>
+ </result>
+</PlaceSearchResponse>

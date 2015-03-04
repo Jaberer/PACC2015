@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PlaceSearchResponse>
+ <status>OK</status>
+ <result>
+  <name>Provo</name>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Provo, UT, USA</formatted_address>
+  <geometry>
+   <location>
+    <lat>40.2338438</lat>
+    <lng>-111.6585337</lng>
+   </location>
+   <viewport>
+    <southwest>
+     <lat>40.1857988</lat>
+     <lng>-111.7409574</lng>
+    </southwest>
+    <northeast>
+     <lat>40.3288710</lat>
+     <lng>-111.5368551</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <icon>http://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png</icon>
+  <reference>CnRrAAAAmJ5D8i9c2O0rLqWY_COueTRWbUMrcZ9U3bS6wcT2CXQDVcSSVOXq5rJP3cfgBaRJ5czbciGNSdjiexyDb-gLqKpEeFzaYab4-CxhIX5J-jo1Stw9O_a0Sld2kG7JhjCPEyFqgKuLe4wWwcCMKtk2khIQsaDDQFNC2jAKfY2Lycu_LhoUimiuheKAt4iqa1FptUqOODJoPuc</reference>
+  <id>2c33b16bd5eacca56428b019b3eae9aa8ad37a9d</id>
+  <place_id>ChIJv_ELk3GSTYcR71a1ACbxkB0</place_id>
+ </result>
+</PlaceSearchResponse>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PlaceSearchResponse>
+ <status>OK</status>
+ <result>
+  <name>Tampa</name>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Tampa, FL, USA</formatted_address>
+  <geometry>
+   <location>
+    <lat>27.9505750</lat>
+    <lng>-82.4571776</lng>
+   </location>
+   <viewport>
+    <southwest>
+     <lat>27.8210600</lat>
+     <lng>-82.6486547</lng>
+    </southwest>
+    <northeast>
+     <lat>28.1714781</lat>
+     <lng>-82.2597409</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <icon>http://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png</icon>
+  <reference>CnRrAAAAkvZuiFGJAKK1kTeKtthDx-7NR3xVMgLIVvJkh7u9KJnaKcTk96x2L_euCvpomIt51qE90gxzMYxxcrMQyfJ17xMhV79WX2Gbur4r3083kyKM4QErfv524gR8e6m-NmyaQ8PmXvA4C_PiGHFl0UkG6hIQZ6lZS0BKCrNuqhqOA7t45xoUY2125dCkfShoet2WQexUYCM1RyY</reference>
+  <id>9adf33187c5522ad19e75ec85d5537d812467a52</id>
+  <place_id>ChIJ4dG5s4K3wogRY7SWr4kTX6c</place_id>
+ </result>
+</PlaceSearchResponse>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PlaceSearchResponse>
+ <status>OK</status>
+ <result>
+  <name>Stanford</name>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Stanford, CA, USA</formatted_address>
+  <geometry>
+   <location>
+    <lat>37.4241060</lat>
+    <lng>-122.1660756</lng>
+   </location>
+   <viewport>
+    <southwest>
+     <lat>37.4063388</lat>
+     <lng>-122.1912920</lng>
+    </southwest>
+    <northeast>
+     <lat>37.4435369</lat>
+     <lng>-122.1494750</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <icon>http://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png</icon>
+  <reference>CnRuAAAAyjl2bnHYSvKBNUkzqATKOivL5aLDFTQZt5-HU3E0zHJIqWmfPWXbm1MVTr-E2C5Z7YKbn_m8X5jVWk26YjeC9zjp3E2xv31ZMBGUEMoczN_KhwM1qj1DLs6VGSLdVhSK_9tP1PzbKDiYU4r0T97OsBIQ6Jr27_N-_o6MySZUxsKM9xoUECM0pT2usvlJNrGfvPD7cTS2J2o</reference>
+  <id>9b52bd2491fac3a95611f1a12b5f7a5dbabbb12d</id>
+  <place_id>ChIJzd7xXsm6j4ARUp8sFUMNrWs</place_id>
+ </result>
+</PlaceSearchResponse>
