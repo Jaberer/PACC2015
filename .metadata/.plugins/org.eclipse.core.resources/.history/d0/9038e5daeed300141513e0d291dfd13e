@@ -234,28 +234,13 @@ his/her own performance could the trainer use it to help prevent injuries?}
 
 There are really a countless number of ways this data could be used. One
 specific way this data could prove to be useful is to look at relation between
-hours of sleep and the the win loss ratio of the team. One of the key aspects of
-maintaining health and focus is getting adequate sleep everyday. By looking at
-the sleep average of the team before games, the results of the games could
-partially be explained by whether the team got enough sleep the previous nights
-or not.
+hours of sleep and 
 
 \subsection{How might the fact that this data is self reported
 impact how useful it is?}
 
-Many of the values measured are subjective values, so it is ok that they're
-self-reported, since they're aiming to measure the players' self perceptions
-anyways. The hours of sleep is probably the only one that is an objective
-measurement and could prove slightly problematic, but hopefully the athletes
-want to record data that is as accurate as possible, so they can find useful
-trends that help them improve themselves.
 
 \subsection{What additional types/sources of data might be useful for teams?}
 
-Some statistics about practice or game performance would be helpful, since then
-they could analyze the association between a player's mentality and a player's
-performance on the court or field. Other useful metrics might be some facts
-about the dietary content of each player for each day, which could be another
-source of influencing the mentality of the player. 
 
 \end{document}
