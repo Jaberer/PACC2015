@@ -1,3 +1,4 @@
 builderNum=2
 eclipse.preferences.version=1
 outputFormat=pdf
+viewerNames.TEMP=yap (C\:\\Program Files\\MikTex\\miktex\\bin\\x64\\yap.exe),xdvi (),itexmac (),kdvi (),gv (),sumatra PDF (),acroread (),none ()

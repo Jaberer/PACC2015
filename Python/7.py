@@ -5,6 +5,7 @@ import pylab
 #import urllib
 import xml.etree.ElementTree as etree
 import PACC
+from scipy import stats
 
 sTArray = PACC.getPlayerDataArray(type = 1, string = 0)
 vTArray = PACC.getPlayerDataArray(type = 1, string = 1)
@@ -75,26 +76,35 @@ for element in data:
 distance = []
 meanStress = []
 for element in data:
+	if element[7] > 20:
+		try:
+			meanStress.append(stats.mode(element[4])[0])
+			distance.append(element[7])
+		except:
+			next
 	
-	try:
-		meanStress.append(PACC.listMean(element[4]))
-		distance.append(element[7])
-	except:
-		next
 colors = np.random.rand(50)
 
 plt.figure()
-plt.scatter(distance, meanStress, alpha=0.5)
+plt.scatter(distance, meanStress, alpha=1)
 plt.xlabel('Distance from Home (km)')
 plt.ylabel('Average Stress')
+plt.yticks([0, 1, 2, 3, 4, 5])
 plt.title('Distance vs. Stress')
 pylab.savefig('Graphs\\7scatter.png')
 
 	
 plt.figure()
-plt.xlabel('Average Stress Level of Player')
+plt.xlabel('Stress Level')
 plt.ylabel('Frequency')
 plt.title('Stress: Home vs. Away')
-plt.hist(hHist, bins = 5, color = 'b', histtype = 'stepfilled', normed = True, alpha = 0.5, label = 'Home')
-plt.hist(aHist, bins = 5, color = 'r', histtype = 'stepfilled', normed = True, alpha = 0.5, label = 'Away')
+plt.hist(hHist, bins = [1, 2, 3, 4, 5, 6], color = 'b', normed = True, alpha = 1, label = 'Home')
+plt.hist(aHist, bins = [1, 2, 3, 4, 5, 6], color = 'r', normed = True, alpha = 0.5, label = 'Away')
+plt.legend(bbox_to_anchor=(0.4, 0.9), bbox_transform=plt.gcf().transFigure)
+
 pylab.savefig('Graphs\\7.png')
+
+
+print "Averages"
+print stats.mode(hHist), stats.mode(aHist)
+print stats.ks_2samp(hHist, aHist)

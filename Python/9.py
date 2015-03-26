@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 import datetime
 import pylab
 import PACC
+from scipy import stats
 
 socAfterGameDay = []
 for x in PACC.getPlayerDataArray(string = 0, type = 1):
@@ -72,6 +73,10 @@ plt.xticks(np.arange(1, 6, 1.0))
 plt.legend(bbox_to_anchor=(0.45, 0.9), bbox_transform=plt.gcf().transFigure)
 pylab.savefig('Graphs\\9.png')
 
+print "Averages"
+print stats.mode(wins + ties + losses), stats.mode(normal)
+print stats.ks_2samp(wins + ties + losses, normal)
+
 plt.figure()
 plt.xlabel('Mood')
 plt.ylabel('Frequency')
@@ -82,6 +87,14 @@ plt.hist(ties, bins = 5, color = 'y', histtype = 'stepfilled', normed = True, al
 plt.xticks(np.arange(1, 6, 1.0))
 plt.legend(bbox_to_anchor=(0.45, 0.9), bbox_transform=plt.gcf().transFigure)
 pylab.savefig('Graphs\\9-0.png')
+
+print "Averages"
+print stats.mode(wins), stats.mode(losses), stats.mode(ties)
+print stats.ks_2samp(wins, losses)
+print stats.ks_2samp(wins, ties)
+print stats.ks_2samp(ties, losses)
+
+
 
 plt.figure()
 plt.xlabel('Mood')

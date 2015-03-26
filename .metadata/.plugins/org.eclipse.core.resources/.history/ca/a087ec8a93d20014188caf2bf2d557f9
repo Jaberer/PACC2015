@@ -1,0 +1,41 @@
+%%This is a very basic article template.
+%%There is just one section and two subsections.
+\documentclass{article}
+\usepackage{calc}
+\setlength\textwidth{6in}
+\setlength\textheight{8in}
+\setlength\oddsidemargin{(\paperwidth-\textwidth)/2 - 1in}
+\setlength\topmargin{(\paperheight-\textheight
+-\headheight-\headsep-\footskip)/2 - 1in}
+
+\usepackage{float}
+\floatstyle{boxed}
+\restylefloat{figure}
+\usepackage{enumerate}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage[pdftex]{graphicx}
+\title{Paul Allen Computing Challenge 2015 \\ \small Round 1 Tasks \\ \large
+Death by Fork \\ The Lakeside School}
+\author{Calvin Tong, Joseph Zhong, Neil Xu}
+\begin{document}
+\maketitle
+
+
+\section{General Data Analysis}
+
+\subsection{Which soccer player had the most sleep per night throughout the
+season?}
+
+Using a Python script, we added up all the total hours of sleep for each
+player, and divided by the number of nights recorded for that player. The player
+with the greatest total number of hours is player 15, 
+
+\subsection{Is there a significant difference in the average amount of sleep
+for athletes weekends vs. weekdays?}
+
+A Welch's t-test seems applicable here.
+
+
+
+\end{document}

@@ -52,8 +52,10 @@ def getPlayerDataArray(string, type):
 	with open(filename, 'rb') as file:
 		gameread = csv.reader(file, delimiter = ',')
 		for row in gameread:
-			tmplist.append(row)
+			if row[0] != '':
+				tmplist.append(row)
 	tmplist.remove(tmplist[0])
+	# tmplist.remove(tmplist[len(tmplist)-1])
 	return tmplist
 
 #http://stackoverflow.com/questions/4913349/haversine-formula-in-python-bearing-and-distance-between-two-gps-points

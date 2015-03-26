@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 import datetime
 import pylab
 import PACC
+from scipy import stats
 
 
 sTList = PACC.getGameDates(0)
@@ -31,8 +32,14 @@ plt.figure()
 plt.xlabel('Stress Level of Player')
 plt.ylabel('Frequency')
 plt.title('Stress: Gameday vs. Not Gameday')
-plt.hist(gameDist, bins = 5, color = 'b', histtype = 'stepfilled', normed = True, alpha = 0.5, label = 'Gameday')
-plt.hist(normDist, bins = 5, color = 'r', histtype = 'stepfilled', normed = True, alpha = 0.5, label = 'Not Gameday')
+plt.hist(gameDist, bins = [1, 2, 3, 4, 5, 6], color = 'b', normed = True, alpha = 1, label = 'Gameday')
+plt.hist(normDist, bins = [1, 2, 3, 4, 5, 6], color = 'r', normed = True, alpha = 0.5, label = 'Not Gameday')
+plt.legend(bbox_to_anchor=(0.45, 0.9), bbox_transform=plt.gcf().transFigure)
+
 pylab.savefig('Graphs\\6.png')
 
 print sum(gameDist)/len(gameDist), sum(normDist)/len(normDist)
+
+print max(gameDist), max(normDist)
+
+print stats.ks_2samp(gameDist, normDist)
