@@ -227,7 +227,7 @@ loss.
 \begin{figure}[H]
 \caption{Timeline}
 \centering
-\includegraphics[width=\textwidth]{RawChart2}
+\includegraphics[width=0.5\textwidth]{RawChart2}
 \end{figure}
 
 
